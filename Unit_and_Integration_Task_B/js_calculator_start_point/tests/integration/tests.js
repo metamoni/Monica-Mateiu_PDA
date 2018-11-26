@@ -90,7 +90,7 @@ describe('calculator functionality', function() {
     element(by.css('#number4')).click();
     element(by.css('#operator_divide')).click();      element(by.css('#number0')).click();
     element(by.css('#operator_equals')).click();
-    expect(running_total.getAttribute('value')).to.eventually.equal("Invalid operation");
+    expect(running_total.getAttribute('value')).to.eventually.equal('Not a number');
   });
 
 // If a number is divided by zero, is the output 'Not a number'? (You will need to modify the Calculator model to meet this requirement).
