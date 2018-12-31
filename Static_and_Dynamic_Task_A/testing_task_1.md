@@ -37,6 +37,5 @@ def self.cards_total(cards)
     # can't concatenate string and integer; total needs to be interpolated with #{total}
   end
 end
-
 # missing end from class CardGame
 ```
